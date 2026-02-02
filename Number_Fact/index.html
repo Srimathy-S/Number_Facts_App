@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Number Fact App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="container">
+    <header class="top-bar">
+      <div>
+        <h1>Number Facts</h1>
+        <p class="subtitle">Enter a number to unlock an interesting fact</p>
+      </div>
+
+      <!-- Dark mode toggle -->
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+        🌙
+      </button>
+    </header>
+
+    <div class="input-group">
+      <label for="numberInput">Number</label>
+      <input
+        id="numberInput"
+        type="number"
+        placeholder="Enter a number"
+        aria-label="Enter a number"
+      />
+      <button id="getFactBtn">Get Fact</button>
+    </div>
+
+    <div class="result-container" id="result">
+      <p class="placeholder-text">Your number fact will appear here.</p>
+    </div>
+
+    <!-- History Section -->
+    <section class="history">
+      <div class="history-header">
+        <h2>Search History</h2>
+        <button id="clearHistoryBtn" class="clear-btn" type="button">Clear</button>
+      </div>
+
+      <ul id="historyList" class="history-list" aria-label="Search history">
+      </ul>
+
+      <p id="historyEmpty" class="history-empty">No recent searches yet.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
