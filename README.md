@@ -23,4 +23,4 @@
 
 Add a screenshot after uploading it to your repository:
 ```md
-![App Screenshot](https://raw.githubusercontent.com/Srimathy-S/Number_Facts_App/main/Number_Fact/Screenshot.png)
+![Live Link](https://random-number-fact-s.netlify.app/)
