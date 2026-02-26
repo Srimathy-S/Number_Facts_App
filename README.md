@@ -7,11 +7,9 @@
 
 ### ✨ Features
 
-- ✅ **Instant Number Facts**  
-  Facts are generated dynamically from multiple templates for variety.
+- ✅ **Instant Number Facts**  - Facts are generated dynamically from multiple templates for variety.
 
-- 🌙☀️ **Dark Mode Toggle**  
-  Theme preference is saved using `localStorage`.
+- 🌙☀️ **Dark Mode Toggle**  - Theme preference is saved using `localStorage`.
 
 - 🕒 **Recent History**  
   - Stores the **last 7 searched numbers**  
