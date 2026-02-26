@@ -19,8 +19,4 @@
 
 ---
 
-### 🖼️ Preview
-
-Add a screenshot after uploading it to your repository:
-```md
-![Live Link](https://random-number-fact-s.netlify.app/)
+### 🖼️ Preview - [Live Link](https://random-number-fact-s.netlify.app/)
